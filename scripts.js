@@ -45,3 +45,16 @@ let capDif = (sentence) => sentence.charAt(0).toUpperCase() + sentence.slice(1).
 console.log(capDif("heLLO i AM TrYing TO CODE right NoW."))
 
 
+/////////#4
+//one way to do it 
+function lastLetter(txt){
+    let length = txt.length;
+    let result = txt.charAt(length-1)
+    return result
+}
+console.log(lastLetter("i am amongus"))
+
+//another way to do it, shorter
+let lastLetterDif = (txt) => txt.charAt(txt.length - 1);
+console.log(lastLetterDif("ASKDJHEHE"))
+
